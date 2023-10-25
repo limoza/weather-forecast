@@ -1,7 +1,9 @@
+import { test } from "./styles/test.css";
+
 export default function Home() {
   return (
     <main>
-      <div>something</div>
+      <div className={test}>something</div>
     </main>
   );
 }
